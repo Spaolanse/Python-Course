@@ -1,0 +1,21 @@
+'''nome = input('Digite seu nome: ')
+maiusculo = nome.upper()
+minusculo = nome.lower()
+espaco = nome.replace(" ", "")
+tamanho = len(espaco)
+divisao = nome.split()
+print('Analisando seu nome...')
+print('Seu nome em maiúscula é {}.'.format(maiusculo))
+print('Seu nome em minúsculas é {}.'.format(minusculo))
+print('Seu nome tem ao todo {} letras.'.format(tamanho))
+print('Seu primeiro nome é {} e ele tem {} letras.'.format(divisao[0], len(divisao[0])))'''
+
+
+nome = str(input('Digite seu nome completo: ')).strip()
+print('Analisando seu nome...')
+print('Seu nome em maiúsculo é {}.'.format(nome.upper()))
+print('Seu nome em minúsculo é {}.'.format(nome.lower()))
+print('Seu nome tem ao todo {} letras.'.format(len(nome) - nome.count(' ')))
+#print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))
+separa = nome.split()
+print('Seu primeiro nome é {} e ele tem {} letras.'.format(separa[0], len(separa[0])))

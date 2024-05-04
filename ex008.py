@@ -1,0 +1,8 @@
+numero = (int(input('Digite um número para ver sua tabuada: ')))
+print('=' * 15)
+print('{} x {:2} = {}\n{} x {:2} = {}'.format(numero, 1, numero*1, numero, 2, numero*2))
+print('{} x {:2} = {}\n{} x {:2} = {}'.format(numero, 3, numero*3, numero, 4, numero*4))
+print('{} x {:2} = {}\n{} x {:2} = {}'.format(numero, 5, numero*5, numero, 6, numero*6))
+print('{} x  7 = {}\n{} x  8 = {}'.format(numero, numero*7, numero, numero*8))
+print('{} x  9 = {}\n{} x 10 = {}'.format(numero, numero*9, numero, numero*10))
+print('=' * 15)
